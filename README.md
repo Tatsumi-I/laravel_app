@@ -24,6 +24,7 @@
 <p align="center">
 <img src="https://github.com/Tatsumi-I/laravel_app/blob/master/aws%E6%A7%8B%E6%88%90%E5%9B%B3.jpg" width="400"> 
 </p>
+
 - **DBはインターネットと直接通信ができない（セキュリティ）**
 
 
