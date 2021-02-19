@@ -2,7 +2,7 @@
 
 <p align="center">
     <a href="http://ec2-35-72-191-104.ap-northeast-1.compute.amazonaws.com/" target="blank">
-    <img src="https://github.com/Tatsumi-I/laravel_app/blob/master/aws%E6%A7%8B%E6%88%90%E5%9B%B3.jpg" width="400">       </a>
+    <img src="" width="400">       </a>
 </p>
 
 
@@ -12,7 +12,7 @@
 
 ## Learning Laravel
 
-
+<img src="https://github.com/Tatsumi-I/laravel_app/blob/master/aws%E6%A7%8B%E6%88%90%E5%9B%B3.jpg" width="400"> 
 
 
 
