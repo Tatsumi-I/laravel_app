@@ -1,7 +1,7 @@
 # laravel_app
 
 <p align="center">
-    <a href="http://ec2-35-72-191-104.ap-northeast-1.compute.amazonaws.com/" target="_blank">
+    <a href="http://ec2-35-72-191-104.ap-northeast-1.compute.amazonaws.com/" target="blank">
     <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400">       </a>
 </p>
 
