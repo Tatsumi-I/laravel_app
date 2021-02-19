@@ -2,7 +2,10 @@
 @section('title', 'list_table')
 
 @section('content')
-<h1>it's list_table</h1>
+<h1>DEMOデータ一覧</h1>
+<br>
+<p>＊ご自由にお試しください</p>
+<p>＊データは削除して構いません</p>
   @if(session('alert'))
     <div class="alert alert-danger">
       <p>

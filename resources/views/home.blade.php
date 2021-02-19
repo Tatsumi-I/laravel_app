@@ -14,7 +14,7 @@
                         </div>
                     @endif
                         <h1>Welcome !!</h1><hr>
-                        <h2>このページからLaravelで作成した<br>CRUDアプリをご覧になれます。</h2>
+                        <p>このページからLaravelで作成した<br>CRUDアプリをご覧になれます。</p>
                     
                 </div>
                 <div class="card-body">
