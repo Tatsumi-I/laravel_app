@@ -2,7 +2,7 @@
 
 <p align="center">
     <a href="http://ec2-35-72-191-104.ap-northeast-1.compute.amazonaws.com/" target="blank">
-    <img src="https://github.com/Tatsumi-I/laravel_app/blob/master/laravel_top.png" width="400">       </a>
+    <img src="https://github.com/Tatsumi-I/laravel_app/blob/master/SS_pf_top.png?raw=true" width="400"></a>
 </p>
 
 
