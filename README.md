@@ -1,4 +1,4 @@
-# laravelアプリとインフラ構成について
+# laravelアプリとインフラ構成について(随時更新中！)
 
 <p align="center">
     <a href="http://ec2-35-72-191-104.ap-northeast-1.compute.amazonaws.com/" target="blank">
