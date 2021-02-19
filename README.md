@@ -1,4 +1,4 @@
-# laravel_app
+# laravelアプリとインフラ構成について
 
 <p align="center">
     <a href="http://ec2-35-72-191-104.ap-northeast-1.compute.amazonaws.com/" target="blank">
@@ -6,27 +6,24 @@
 </p>
 
 
-## About Laravel_app
+## 概要
 
+- 右上のログインからCRUDアプリに入ることができます
+- 
 
+## 機能紹介
 
-## Learning Laravel
+## インフラ構成
 
 <img src="https://github.com/Tatsumi-I/laravel_app/blob/master/aws%E6%A7%8B%E6%88%90%E5%9B%B3.jpg" width="400"> 
 
+- aws
+- **DBはインターネットと直接通信ができない（セキュリティ）**
+- **（可用性）**
+
+## 
 
 
-## Laravel Sponsors
-
-
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[British Software Development](https://www.britishsoftware.co)**
 
 ## Contributing
 
