@@ -2,7 +2,7 @@
 
 <p align="center">
     <a href="http://ec2-35-72-191-104.ap-northeast-1.compute.amazonaws.com/" target="blank">
-    <img src="https://github.com/Tatsumi-I/laravel_app/blob/master/SS_pf_top.png?raw=true" width="400"></a>
+    <img src="https://github.com/Tatsumi-I/laravel_app/blob/master/SS_pf_top.jpg?raw=true" width="400"></a>
 </p>
 
 
@@ -40,6 +40,6 @@ awsの基本的な使用方法と設計の概念を理解するためにawsを�
 
 ## 最後に
 **お忙しい中、最後まで読んでいただきありがとうございます。**
-もしよろしければTOPへ戻っていただき、その他のアプリについても、ぜひご覧ください。
+その他のアプリについても、ぜひご覧ください。
 
 [portfolio](http://ec2-35-72-191-104.ap-northeast-1.compute.amazonaws.com)
