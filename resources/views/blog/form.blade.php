@@ -8,7 +8,7 @@
         enctype="multipart/form-data"
   >
     @csrf
-    {{-- <input type="file" name="file"> --}}
+    <input type="file" name="image_file">
     <label for="">name</label>
     <input name="name" id="name" type="text">
       @if ($errors->has('name'))
