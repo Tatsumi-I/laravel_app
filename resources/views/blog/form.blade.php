@@ -8,14 +8,19 @@
         enctype="multipart/form-data"
   >
     @csrf
-    {{-- <input type="file" name="file"> --}}
-    <label for="">name</label>
+    
+    <label for="">＜画像をアップする＞</label>
+    <input type="file" name="img_file">
+    <br> 
+    <label for="">＜name＞</label>
     <input name="name" id="name" type="text">
       @if ($errors->has('name'))
         {{ $errors->first('name') }}
       @endif
-      <br>
-    <textarea name="content" id="content" cols="30" rows="10"></textarea>
+    <br>
+
+    <label for="">＜text＞</label>
+    <textarea name="content" id="content" cols="30" rows="5"></textarea>
       @if ($errors->has('content'))
         {{ $errors->first('content') }}
       @endif

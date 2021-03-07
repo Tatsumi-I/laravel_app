@@ -70,6 +70,14 @@ class BlogController extends Controller
         // dd($put);
         // return redirect()->route('blog.list');
 
+	$img_file = $request->file('img_file');
+        $file_name = $img_file->getClientOriginalName();
+        if($img_file->isValid() === true){
+        //    $dir = Storage::disk('public');
+           $path = $img_file->storeAs('public/img_file', $file_name);
+        }
+        
+
         $inputs = $request->all();
         try{
             $blog = Blog::create($inputs);
@@ -83,7 +91,11 @@ class BlogController extends Controller
 
         return redirect()
         ->route('blogs')
-        ->with('done' , '登録しました');
+	->with('done' , '登録しました')
+
+        ->with('message' , $file_name, 'ok' , 'query_OK')
+        ->with('check' , '保存されました')
+        ;
 
     }
     /**
