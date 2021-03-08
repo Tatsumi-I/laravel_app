@@ -4,8 +4,12 @@
 @section('content')
 <h1>DEMOデータ一覧</h1>
 <br>
-<p>＊ご自由にお試しください</p>
-<p>＊データは削除して構いません</p>
+<p>・ご自由にお試しください</p>
+<p>・データは削除して構いません</p>
+<br><br>
+<p>＊お知らせ＊</p>
+<p><b>テキストのCRUDは機能しています。<br>現在画像アップ機能については追加調整中です…</b></p>
+
   @if(session('alert'))
     <div class="alert alert-danger">
       <p>
@@ -20,6 +24,18 @@
       </p>
     </div>
   @endif
+  @if(session('message'))
+    <a href="{{ '/storage/img_file/' }}{{ session('message') }}">
+    <img src="{{ '/storage/img_file/' }}{{ session('message') }}" alt="" width="200px" style="display:block;margin:auto;">
+   @endif
+    </a>
+   @if(session('check'))
+    <div class="alert-success" style="background:lightgreen;">
+      <b>
+      {{ session('check') }}
+      </b>
+    </div>
+   @endif
   <table class="table">
   <thead>
       <tr>

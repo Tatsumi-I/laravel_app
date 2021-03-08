@@ -11,7 +11,9 @@
 
         <!-- Styles -->
         <style>
-            @keyframes git {
+
+	     @keyframes git {
+
                 0%  {
                     filter:opacity(0);
                 }
@@ -19,7 +21,10 @@
                     filter:opacity(0.8);
                 }
             }
-            html, body {
+
+	     html, body {
+
+
                 background-color: #fff;
                 color: #636b6f;
                 font-family: 'Nunito', sans-serif;
@@ -61,14 +66,22 @@
 
             .title {
                 font-size: 54px;
+
+	    }
+	    
+            .links {
+		
+	    }
+
             }
+
 
             .links  {
 
                     }
             .links > a {
                 color: #636b6f;
-                padding: 0 25px;
+                padding: 0 20px;
                 font-size: 13px;
                 font-weight: 600;
                 letter-spacing: .1rem;
@@ -86,9 +99,13 @@
 
             }
             
-            .git{
+
+             .git{
                 filter: opacity(0);
-                animation: git 10s  forwards;
+                animation: git 5s  forwards;
+
+
+
 
             }
             .m-b-md {
@@ -108,9 +125,9 @@
                     @auth
                         <a href="{{ url('/home') }}">Home</a>
                     @else
-                        <a href="{{ route('login') }}">ログイン</a>
+                        <a href="{{ route('login') }}">Login</a>
                         @if (Route::has('register'))
-                            <a href="{{ route('register') }}">新規ユーザー登録</a>
+                            <a href="{{ route('register') }}">新規登録</a>
                         @endif
                     @endauth
                 </div>
@@ -129,9 +146,11 @@
                     Tatsumi's  Portfolio
                 </div>
 
-                <div class="links">
-                    <a href="https://github.com/Tatsumi-I/laravel_app/blob/master/README.md" style="">readme  ＞1</a>
-                    <a href="https://github.com/Tatsumi-I/For-php_dockerDev/blob/master/README.md" style="">＞2</a>
+
+		<div class="links">
+		    <a href="https://github.com/Tatsumi-I/laravel_app/blob/master/README.md" style="">readme  ＞1</a> 
+		    <a href="https://github.com/Tatsumi-I/For-php_dockerDev/blob/master/README.md" style="">＞2</a>
+
                 </div>
                 {{-- <hr> --}}
                 <br>
@@ -140,13 +159,15 @@
                 <div class="links">
 
                     <a href="http://myfirstdeploy.s3.coreserver.jp/work/web/covid_19/covid.php" style=>
-                    <img src="https://github.com/Tatsumi-I/laravel_app/blob/master/SS_covid.png?raw=true" alt="" width="80px" style=""><br>Covid_19<br>Data解析</a>
+
+		    <img src="https://github.com/Tatsumi-I/laravel_app/blob/master/SS_covid.png?raw=true" alt="" width="80px" style=""><br>Covid_19<br>Data解析</a>
 
                     <a href="http://myfirstdeploy.s3.coreserver.jp/work/web/weather_API/weather.php" style=";margin:auto;">
                     <img src="https://github.com/Tatsumi-I/laravel_app/blob/master/SS_weather.png?raw=true" alt=""  width="80px" style=""><br>API<br>天気予報</a>
-
+                    
                     <a href="http://myfirstdeploy.s3.coreserver.jp/work/web/talk_API/talk.php" style=";margin:auto;">
                     <img src="https://github.com/Tatsumi-I/laravel_app/blob/master/SS_AI.png?raw=true" alt=""  width="80px" style=""><br>イラッとする<br>AI-bot</a>
+		
 
                     <a href="http://ec2-35-72-191-104.ap-northeast-1.compute.amazonaws.com/login" style=";margin:auto;">
                     <img src="https://github.com/Tatsumi-I/laravel_app/blob/master/SS_login.png?raw=true" alt=""  width="80px" style=""><br>CRUD<br>app</a>
