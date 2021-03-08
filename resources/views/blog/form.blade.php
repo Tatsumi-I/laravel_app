@@ -7,12 +7,13 @@
         onSubmit="return checkSubmit()" 
         enctype="multipart/form-data"
   >
-    @csrf
-    
+    @csrf   
     <label for="">＜画像をアップする＞</label>
     <input type="file" name="img_file">
     <br> 
     <label for="">＜name＞</label>
+
+
     <input name="name" id="name" type="text">
       @if ($errors->has('name'))
         {{ $errors->first('name') }}
